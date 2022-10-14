@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OIAKWA TOORU</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Style the header */
+      header {
+        background-color: rgb(218, 106, 9);
+        padding: 36px;
+        text-align: center;
+        font-size: 50px;
+        color: white;
+      }
+
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 25%;
+        height: 440px; /* only for demonstration, should be removed */
+        background: rgb(218, 106, 9);
+        padding: 20px;
+      }
+
+      /* Style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      article {
+        float: left;
+        padding: 20px;
+        width: 75%;
+        background-color: rgba(255, 202, 152, 0.8);
+        height: 440px; /* only for demonstration, should be removed */
+      }
+
+      /* Clear floats after the columns */
+      section::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+
+      /* Style the footer */
+      footer {
+        background-color: rgb(198, 92, 0);
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="css/background.css" />
+  <body>
+    <header>
+      <h2 class="haikyu-title1">OIKAWA TOORU</h2>
+    </header>
+    <div class="menu">
+      <ul class="ul-menu">
+        <li class="li-menu"><a class="a-menu" href="#Char">CHARACTER</a></li>
+        <li class="li-menu"><a class="a-menu" href="#about">BIODATA</a></li>
+      </ul>
+    </div>
+    <center><img class="haikyu-icon" src=https://tse4.mm.bing.net/th?id=OIP.E6HDxi7vvU1E2sQGpC1sdgHaCd&pid=Api&P=0 width="50%" height="50%" ></center>
+    <section>
+      <nav>
+        <img src="img/oikawa.jpg" width="100%" height="100%" alt="" />
+      </nav>
+
+      <article id="about">
+        <h1>BIODATA</h1>
+        <p class="b-oikawa">
+          Kanji: 及川 徹
+          <br />
+          Romaji: Oikawa Tooru
+          <br />
+          Juga Dikenal Sebagai: Shittykawa, Trashykawa, Assikawa, Crappykawa, Lazykawa, Loserkawa, Dumbass, Hanger Bastard (oleh Iwaizumi) The Great King, Oika-Senpai, Oikawa the Great (hanya manga) (oleh Hinata) Gantungan Oikawa (oleh
+          Hanamaki)
+          <br />
+          Jenis kelamin: Pria
+          <br />
+          Tanggal lahir: Pra-timeskip
+          <br />
+          Usia: 17 (Sekolah Menengah Tahun 3) - 2012
+          <br />
+          Tinggi: 184.3cm (6' 0.6") - Apr 2012
+          <br />
+          Berat Badan: 72.2kg (159.2 lbs)
+          <br />
+          Posisi: Setter
+        </p>
+      </article>
+      <br />
+      <div class="home1">
+        <ul class="ul-back">
+          <li class="li-back"><a class="a-nav" href="halaman0.html">BACK TO HOME</a></li>
+        </ul>
+      </div>
+    </section>
+    <h1 id="Char">OTHER CHARACTER</h1>
+    <table>
+      <thead>
+        <tr>
+          <center>
+            <td class="t-table"><a class="at-table" href="hal1.html">Hinata Shoyo </a></td>
+            <td class="t-table"><a class="at-table" href="hal2.html">Kageyama Tobio</a></td>
+            <td class="t-table1"><a class="at-table1" href="hal3.html">Oikawa Tooru</a></td>
+          </center>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <a class="timg-table" href="hal1.html"><img class="t-img" src="https://tse1.mm.bing.net/th?id=OIP.8LK5DnBuXl5F4bVZyQyU5QHaHa&pid=Api&P=0" width="84%" height="84%" alt="" /></a>
+          </td>
+          <td>
+            <a class="Kageyama" href="hal2.html"><img class="t-img" src="https://tse4.mm.bing.net/th?id=OIP.j0kuvTv4Dlo7Yuesvh_CnwHaHa&pid=Api&P=0" width="84%" height="84%" alt="" /></a>
+          </td>
+          <td>
+            <a class="Oikawa" href="hal3.html"><img class="t-img3" src="https://tse3.mm.bing.net/th?id=OIP.VDQT7wlsGy7Mj8ifFnM6agHaHa&pid=Api&P=0" width="84%" height="84%" alt="" /></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      <p>Thank You</p>
+    </footer>
+  </body>
+</html>

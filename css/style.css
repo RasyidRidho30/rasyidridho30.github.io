@@ -1,0 +1,33 @@
+.slider h3,
+.slider h4,
+.slider h5 {
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.parallax-container {
+  height: 300px;
+}
+
+.parallax img {
+  filter: grayscale(50);
+  opacity: 0.5 !important;
+}
+
+.text-paralax {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20%;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.card {
+  padding-top: 6rem;
+}
+
+footer {
+  padding: 10px;
+}
